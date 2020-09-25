@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: item-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 39.96.52.99:8848
+
+server:
+  port: 8001
+
+#---
+#spring:
+#  profiles: item1
+#server:
+#  port: 8001
+#
+#---
+#spring:
+#  profiles: item2
+#server:
+#  port: 8002
+  
